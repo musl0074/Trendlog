@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Chart\charts-chartjs.cshtml" />
+    <Content Remove="Views\Component\components-accordions.cshtml" />
+    <Content Remove="Views\Component\components-calendar.cshtml" />
+    <Content Remove="Views\Component\components-carousel.cshtml" />
+    <Content Remove="Views\Component\components-maps.cshtml" />
+    <Content Remove="Views\Component\components-modals.cshtml" />
+    <Content Remove="Views\Component\components-notifications.cshtml" />
+    <Content Remove="Views\Component\components-pagination.cshtml" />
+    <Content Remove="Views\Component\components-progress-bar.cshtml" />
+    <Content Remove="Views\Component\components-scrollable-elements.cshtml" />
+    <Content Remove="Views\Component\components-tabs.cshtml" />
+    <Content Remove="Views\Component\components-tooltips-popovers.cshtml" />
+    <Content Remove="Views\DashBoard\dashboard-boxes.cshtml" />
+    <Content Remove="Views\Element\dropdowns.cshtml" />
+    <Content Remove="Views\Element\elements-badges-labels.cshtml" />
+    <Content Remove="Views\Element\elements-buttons-standard.cshtml" />
+    <Content Remove="Views\Element\elements-cards.cshtml" />
+    <Content Remove="Views\Element\elements-icons.cshtml" />
+    <Content Remove="Views\Element\elements-list-group.cshtml" />
+    <Content Remove="Views\Element\elements-navigation.cshtml" />
+    <Content Remove="Views\Element\elements-utilities.cshtml" />
+    <Content Remove="Views\Form\forms-controls.cshtml" />
+    <Content Remove="Views\Form\forms-layouts.cshtml" />
+    <Content Remove="Views\Form\forms-validation.cshtml" />
+    <Content Remove="Views\Table\tables-regular.cshtml" />
+    <Content Remove="wwwroot\css\assets\fonts\fa-solid-900.eot" />
+    <Content Remove="wwwroot\css\assets\fonts\fa-solid-900.svg" />
+    <Content Remove="wwwroot\css\assets\fonts\fa-solid-900.ttf" />
+    <Content Remove="wwwroot\css\assets\fonts\fa-solid-900.woff" />
+    <Content Remove="wwwroot\css\assets\fonts\fa-solid-900.woff2" />
+    <Content Remove="wwwroot\css\assets\fonts\Pe-icon-7-stroke.eot" />
+    <Content Remove="wwwroot\css\assets\fonts\Pe-icon-7-stroke.svg" />
+    <Content Remove="wwwroot\css\assets\fonts\Pe-icon-7-stroke.ttf" />
+    <Content Remove="wwwroot\css\assets\fonts\Pe-icon-7-stroke.woff" />
+    <Content Remove="wwwroot\css\assets\images\avatars\1.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\10.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\11.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\12.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\2.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\3.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\4.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\5.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\8.jpg" />
+    <Content Remove="wwwroot\css\assets\images\avatars\9.jpg" />
+    <Content Remove="wwwroot\css\assets\images\logo-inverse.png" />
+    <Content Remove="wwwroot\css\assets\images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Element\DropDowns.cshtml" />
+    <None Include="wwwroot\css\assets\fonts\fa-solid-900.eot" />
+    <None Include="wwwroot\css\assets\fonts\fa-solid-900.svg" />
+    <None Include="wwwroot\css\assets\fonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\css\assets\fonts\fa-solid-900.woff" />
+    <None Include="wwwroot\css\assets\fonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\css\assets\fonts\Pe-icon-7-stroke.eot" />
+    <None Include="wwwroot\css\assets\fonts\Pe-icon-7-stroke.svg" />
+    <None Include="wwwroot\css\assets\fonts\Pe-icon-7-stroke.ttf" />
+    <None Include="wwwroot\css\assets\fonts\Pe-icon-7-stroke.woff" />
+    <None Include="wwwroot\css\assets\images\avatars\1.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\10.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\11.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\12.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\2.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\3.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\4.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\5.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\8.jpg" />
+    <None Include="wwwroot\css\assets\images\avatars\9.jpg" />
+    <None Include="wwwroot\css\assets\images\logo-inverse.png" />
+    <None Include="wwwroot\css\assets\images\logo.png" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\css\main.css" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
